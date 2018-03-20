@@ -1,0 +1,144 @@
+body {
+  margin: 20px;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #7bed9f;
+}
+
+.credit-card {
+  margin: auto;
+  position: absolute;
+  width: 600px;
+  height: 378px;
+  border-radius: 24px;
+  background-color: #3498db;
+  color: #fff;
+  padding-left: 40px;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.name, .card-number, .first-four-digits, .expiration {
+  font-family: "Courier", monospace;
+  position: absolute;
+  text-transform: uppercase;
+}
+
+.name {
+  bottom: 40px;
+  font-size: 36px;
+}
+
+.card-number {
+  bottom: 160px;
+  font-size: 46px;
+}
+
+.first-four-digits {
+  font-size: 20px;
+  font-weight: 200;
+  font-family: sans-serif;
+  bottom: 140px;
+}
+
+.expiration {
+  font-size: 36px;
+  left: 240px;
+  bottom: 100px;
+}
+
+.valid-thru {
+  width: 30px;
+  display: inline-block;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.bank-name {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  font-size: 50px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 660px) {
+
+  .credit-card {
+    height: 318px;
+    width: 450px;
+  }
+
+  .bank-name {
+    font-size: 40px;
+    top: 25px;
+    right: 18px;
+  }
+
+  .card-number {
+    bottom: 150px;
+    font-size: 35px;
+  }
+
+  .first-four-digits {
+    bottom: 125px;
+  }
+
+  .valid-thru {
+    font-size: 12px;
+  }
+
+  .expiration {
+    font-size: 32px;
+  }
+
+  .name {
+    font-size: 32px;
+    bottom: 27px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .credit-card {
+    height: 240px;
+    width: 300px;
+  }
+
+  .bank-name {
+    font-size: 33px;
+    top: 17px;
+    right: 18px;
+  }
+
+  .card-number {
+    bottom: 110px;
+    left: 23px;
+    font-size: 26px;
+  }
+
+  .first-four-digits {
+    bottom: 90px;
+    left: 26px;
+    font-size: 14px;
+  }
+
+  .valid-thru {
+    font-size: 9px;
+  }
+
+  .date {
+    font-size: 20px;
+  }
+
+  .expiration {
+    font-size: 10px;
+    bottom: 75px;
+    left: 180px;
+  }
+
+  .name {
+    font-size: 26px;
+    bottom: 15px;
+    left: 30px;
+  }
+}

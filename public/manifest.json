@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Credit Card",
+  "name": "Static Credit Card React",
   "icons": [
     {
       "src": "favicon.ico",
